@@ -1,8 +1,10 @@
 # Тестовое задание (Junior LLM/ML Developer)
 
-**Задание**: выявить города при заказе цветов (данные data.csv)
+**Задание**: выявить города при заказе цветов (данные data_given.csv)
 
 **Решение**: NER(дообучение) или LangChain
+
+[Дообученная модель (zip файл)](https://drive.google.com/file/d/1KgkhWqnsoV2jLh1uDExhdpk0_PiKr8JF/view?usp=sharing)
 
 ## NER(дообучение)
 Кратко: проанализированы датасеты RURED и NEREL для дообучения (модель дообучена на NEREL), модель, которая использовалась, = `google-bert/bert-base-multilingual-uncased`
